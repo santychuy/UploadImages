@@ -1,0 +1,27 @@
+{
+  "name": "app_upload_image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santychuy/UploadImages.git"
+  },
+  "author": "Santychuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santychuy/UploadImages/issues"
+  },
+  "homepage": "https://github.com/santychuy/UploadImages#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
